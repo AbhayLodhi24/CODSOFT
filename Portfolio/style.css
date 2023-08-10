@@ -1,0 +1,318 @@
+/************************/
+/*** BOOTSTRAP CUSTOM ***/
+/************************/
+
+.navbar-nav {
+	font-size: 125%;
+}
+
+.navbar-brand {
+	font-size: 2em;
+}
+.navbar-inverse {
+    background-color: #171101db;
+    border-color: #080808;
+}
+/**************************/
+/*** APPLICATION COMMON ***/
+/**************************/
+
+
+html, body {
+	height: 100%;
+}
+
+.mt-block-line {
+	background: rgba(119, 119, 119, 0.5);
+	width: 100px;
+	height: 1px;
+	margin: 30px auto;
+}
+
+.mt-top-row-home-white {
+	margin-top: 692px;
+	text-align: center;
+	color: white;
+}
+
+.mt-top-row-white {
+	margin-top: 100px;
+	text-align: center;
+	color: white;
+}
+
+.mt-top-row-white h1 {
+	font-size: 250%;
+}
+
+.mt-top-row {
+	margin-top: 100px;
+	text-align: center;
+}
+
+.mt-top-row h1 {
+	font-size: 250%;
+}
+
+.mt-margin-top {
+	margin-top: 30px;
+}
+
+.mt-padding-top {
+	padding-top: 20px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.center {
+	text-align: center;
+}
+
+.title {
+	margin-top: 100px;
+	font-size: 300%;
+}
+
+.footer {
+	background-color: #B0D1FB;
+	padding-top: 70px;
+	width: 100%;
+}
+
+.mt-margin-bottom {
+	margin-bottom: 30px;
+}
+
+.mt-ap-store-image {
+	width: 250px; 
+}
+
+
+/**********************/
+/*** HOME CONTAINER ***/
+/**********************/
+
+
+.mt-top-container-home {
+	background-image: 
+		linear-gradient(
+          rgba(0, 0, 0, 0.4),
+          rgba(0, 0, 0, 0.8)
+          ),
+		url("mydp.JPG");
+	width: 100%;
+	background-size: cover;
+    /* background-position: center center; */
+    background-repeat: no-repeat;
+}
+
+.mt-sub-head-white p {
+	color: white;
+}
+
+.mt-nav-next-white {
+	margin-top: 50px;
+	text-align: center;
+	color: white;
+}
+
+
+/**************************/
+/*** SERVICES CONTAINER ***/
+/**************************/
+
+
+.mt-container-services {
+	background-color: #F5F5F5;
+}
+
+.mt-service-thumb-row {
+	margin-top: 50px;
+}
+
+.mt-service-thumb-row a:hover {
+	text-decoration: none;
+}
+
+.mt-service-thumb {
+	background-color: #F5F5F5;
+	border-color: #13456C;
+	height: 225px;
+}
+
+.mt-service-thumb-text {
+	text-align: center;
+	color: #777777 !important;
+}
+
+.fa-code, .fa-cloud, .fa-puzzle-piece {
+	color: #13456C !important;
+}
+
+.mt-service-thumb:hover {
+	background-color: white !important;
+}
+
+
+/***************************/
+/*** PORTFOLIO CONTAINER ***/
+/***************************/
+
+
+.mt-container-portfolio {
+	background: 
+		linear-gradient(
+          rgba(19, 69, 108, 0.4),
+          rgba(19, 69, 108, 0.6)
+          );
+	width: 100%;
+	background-size: cover;
+}
+
+.mt-portfolio-thumb-row {
+	margin-top: 25px;
+}
+
+.mt-portfolio-thumb {
+	background-color: #13456C;
+	box-shadow: 5px 5px 10px #BBBBBB;
+}
+
+.mt-portfolio-thumb-text {
+	text-align: center;
+	color: white !important;
+}
+
+.mt-portfolio-thumb:hover {
+	background-color: white !important;
+}
+
+.mt-portfolio-thumb:hover h4 {
+	background-color: white !important;
+	color: #13456C !important;
+}
+
+
+/*************************/
+/*** CONNECT CONTAINER ***/
+/*************************/
+
+
+.mt-container-connect {
+	background-color: #F5F5F5;
+}
+
+.mt-social-links-row {
+	padding-bottom: 30px;
+}
+
+.mt-social-links {
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+
+.mt-social-links a {
+	color: #13456C;
+}
+
+.mt-fa-social {
+	color: #13456C;
+	text-shadow: 4px 4px 5px #BBBBBB
+}
+
+.mt-social-links a:hover {
+	text-decoration: none;
+}
+
+.mt-social-links a:hover .mt-fa-social {
+	color: #777777;
+}
+
+.mt-connect-form-row {
+	padding-top: 20px;
+}
+
+.btn {
+	color: #777777;
+}
+
+.form-control {
+	font-size: 125%;
+}
+
+.mt-fa-button {
+	color: #13456C;
+}
+
+
+/******************************/
+/*** TOP NAV SCROLL DOWN/UP ***/
+/******************************/
+
+
+.mt-scroll-down-link {
+	width: 50px;
+	height: 50px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: white; 
+	border-radius: 50%;
+	padding-top: 4px;
+	margin: auto;
+}
+
+.mt-scroll-down-link a {
+	font-size: 200%;
+	color: white;
+}
+
+.mt-scroll-down-link:hover {
+	border-color: #B0D1FB;
+}
+
+.mt-scroll-down-link:hover a {
+	color: #B0D1FB;
+}
+
+.mt-scroll-up-link {
+	width: 50px;
+	height: 50px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: darkgray; 
+	border-radius: 50%;
+	padding-top: 3px;
+	margin: auto;
+	text-align: center;
+	position: fixed;
+	display: none;
+	z-index: 999;
+	bottom: 1em;
+	right: 1em;
+}
+
+.mt-scroll-up-link a {
+	font-size: 200%;
+	color: darkgray;
+}
+
+.mt-scroll-up-link:hover {
+	border-color: #BF6A66;
+}
+
+.mt-scroll-up-link:hover a {
+	color: #BF6A66;
+}
+
+
+/******************************/
+/*** FOOTER ***/
+/******************************/
+
+
+.mt-copyright {
+	text-align: center;
+	padding-top: 125px;
+}
