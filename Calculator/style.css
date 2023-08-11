@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&family=Tektur&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Prompt', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  color: rgb(117, 12, 64);
+}
+
+.button {
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 8px 0;
+}
+
+.row input {
+  grid-column: 1 / span 4;
+  width: 100%;
+  font-size: 20px;
+  margin: 0;
+  padding: 10px 0px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.row:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row:last-child .button {
+  margin: 0 5px;
+}
+
+.input {
+  font-family: 'Tektur', cursive;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.borderColor {
+  border-radius: 20px;
+  border: 5px solid rgb(95, 99, 104);
+  display: inline-block;
+  padding: 20px;
+  background-color: rgb(232, 220, 206);
+}
+
+.equals {
+  background-color: rgb(242, 204, 98);
+  border-radius: 50%;
+}
